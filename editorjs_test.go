@@ -13,7 +13,7 @@ func TestEditorJS(t *testing.T) {
 	var (
 		ejs = NewEditorJS()
 		b   []byte
-		err error 
+		err error
 	)
 
 	b, err = ioutil.ReadFile("./examples/data.json")
