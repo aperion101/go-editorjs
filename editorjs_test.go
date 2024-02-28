@@ -29,17 +29,17 @@ func TestEditorJS(t *testing.T) {
 	buf.WriteString(`<head>`)
 	buf.WriteString(`
 	<title>WeTix</title>
-    <meta charset="utf8" />
-    <meta
-      name="Description"
-      content="Malaysia first movie ticketing aggregator."
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="refresh" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"
-    />
+	<meta charset="utf8" />
+	<meta
+	name="Description"
+	content="Malaysia first movie ticketing aggregator."
+	/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="refresh" />
+	<meta
+	name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"
+	/>
 	`)
 	buf.WriteString(`<link href="https://wetix-assets.oss-ap-southeast-3.aliyuncs.com/css/global.css" rel="stylesheet" />`)
 	buf.WriteString(`</head>`)
