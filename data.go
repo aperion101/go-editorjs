@@ -2,7 +2,6 @@ package editorjs
 
 import "encoding/json"
 
-// Data
 type Data struct {
 	Blocks  []Block `json:"blocks"`
 	Version string  `json:"version"`
