@@ -25,6 +25,7 @@ type Image struct {
 	Stretched bool   `json:"stretched"`
 }
 
+//
 type Table struct {
 	WithHeadings bool       `json:"withHeadings"`
 	Content      [][]string `json:"content"`
