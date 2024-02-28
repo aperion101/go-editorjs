@@ -12,6 +12,7 @@ type Block struct {
 	Data json.RawMessage `json:"data"`
 }
 
+//
 type List struct {
 	Style string   `json:"style"`
 	Items []string `json:"items"`
