@@ -53,7 +53,6 @@ func TestEditorJS(t *testing.T) {
 	// Load the HTML document
 	doc, err := goquery.NewDocumentFromReader(buf)
 	require.NoError(t, err)
-
 	// verify the html content is matched
 	{
 		require.True(t, len(doc.Find("p").Nodes) == 7)
