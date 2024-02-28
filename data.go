@@ -12,6 +12,7 @@ type Block struct {
 	Data json.RawMessage `json:"data"`
 }
 
+//
 type List struct {
 	Style string   `json:"style"`
 	Items []string `json:"items"`
@@ -25,6 +26,7 @@ type Image struct {
 	Stretched bool   `json:"stretched"`
 }
 
+//
 type Table struct {
 	WithHeadings bool       `json:"withHeadings"`
 	Content      [][]string `json:"content"`
