@@ -50,7 +50,6 @@ func TestEditorJS(t *testing.T) {
 	buf.WriteString(`</main>`)
 	buf.WriteString(`</body>`)
 	buf.WriteString(`</html>`)
-
 	// Load the HTML document
 	doc, err := goquery.NewDocumentFromReader(buf)
 	require.NoError(t, err)
